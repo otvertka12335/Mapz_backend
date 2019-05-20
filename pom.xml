@@ -43,11 +43,12 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-        <!--JWT-->
+
         <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-jwt</artifactId>
-            <version>RELEASE</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.6</version>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>
