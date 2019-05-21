@@ -29,5 +29,5 @@ public class PurchasedTicket {
     @ManyToOne(fetch = FetchType.LAZY)
     @NotFound(action = NotFoundAction.IGNORE)
     @JoinColumn(name = "id_usr")
-    private Usr usr;
+    private User user;
 }
