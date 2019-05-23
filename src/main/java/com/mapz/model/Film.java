@@ -8,6 +8,8 @@ import org.hibernate.annotations.NotFound;
 import org.hibernate.annotations.NotFoundAction;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "films")
@@ -24,8 +26,10 @@ public class Film {
 
     private String description;
 
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToMany(fetch = FetchType.LAZY)
     @NotFound(action = NotFoundAction.IGNORE)
-    @JoinColumn(name = "id_genres")
-    private Genre genre;
+    @JoinTable(name = "films_genres",
+            joinColumns = {@JoinColumn(name = "film_id") },
+            inverseJoinColumns = {@JoinColumn(name = "genres_id")})
+    private Set<Genre> genres = new HashSet<>();
 }
