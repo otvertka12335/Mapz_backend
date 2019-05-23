@@ -10,16 +10,16 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping(value = "/api/halls")
 public class HallController {
     @Autowired
-    private HallRepo genreRepo;
+    private HallRepo hallRepo;
 
     @GetMapping
     public Iterable<Hall> getAll() {
-        return genreRepo.findAll();
+        return hallRepo.findAll();
     }
 
     @PostMapping()
     public Hall save(@RequestBody final Hall hall) {
-        genreRepo.save(hall);
+        hallRepo.save(hall);
         return hall;
     }
 
@@ -32,11 +32,11 @@ public class HallController {
     public Hall edit(@PathVariable("id") Hall hall,
                      @RequestBody Hall newHall) {
         BeanUtils.copyProperties(newHall, hall, "id");
-        return genreRepo.save(hall);
+        return hallRepo.save(hall);
     }
 
     @DeleteMapping("/{id}")
     public void deleteUser(@PathVariable("id") Hall hall) {
-        genreRepo.delete(hall);
+        hallRepo.delete(hall);
     }
 }
