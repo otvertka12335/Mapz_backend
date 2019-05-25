@@ -19,4 +19,25 @@ public class Genre {
     private int id;
 
     private String name;
+
+
+    private Genre(GenreBuilder builder) {
+        this.name = builder.name;
+    }
+
+    public static class GenreBuilder {
+        private String name;
+
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public Genre build() {
+            return new Genre(this);
+        }
+    }
 }

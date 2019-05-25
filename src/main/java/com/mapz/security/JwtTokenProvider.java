@@ -1,16 +1,12 @@
 package com.mapz.security;
 
-import com.mapz.model.RoleName;
-import com.mapz.model.User;
-import com.mapz.payload.JwtAuthenticationResponse;
-import com.mapz.repo.RoleRepository;
-import com.mapz.repo.UserRepo;
 import io.jsonwebtoken.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Component;
+
 import java.util.Date;
 
 @Component
