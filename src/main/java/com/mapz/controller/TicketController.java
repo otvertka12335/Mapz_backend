@@ -6,6 +6,8 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping(value = "/api/tickets")
 public class TicketController {
@@ -38,5 +40,10 @@ public class TicketController {
     @DeleteMapping("/{id}")
     public void deleteUser(@PathVariable("id") Ticket ticket) {
         ticketRepo.delete(ticket);
+    }
+
+    @RequestMapping("/film")
+    public List<Ticket> getAllByFilm(@RequestParam("id")int id) {
+        return ticketRepo.getAll(id);
     }
 }

@@ -1,5 +1,10 @@
 package com.mapz.security;
 
+import com.mapz.model.RoleName;
+import com.mapz.model.User;
+import com.mapz.payload.JwtAuthenticationResponse;
+import com.mapz.repo.RoleRepository;
+import com.mapz.repo.UserRepo;
 import io.jsonwebtoken.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +17,6 @@ import java.util.Date;
 public class JwtTokenProvider {
 
     private static final Logger logger = LoggerFactory.getLogger(JwtTokenProvider.class);
-
     @Value("${app.jwtSecret}")
     private String jwtSecret;
 

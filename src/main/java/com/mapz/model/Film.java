@@ -26,6 +26,8 @@ public class Film {
 
     private String description;
 
+    private String url;
+
     @ManyToMany(fetch = FetchType.LAZY)
     @NotFound(action = NotFoundAction.IGNORE)
     @JoinTable(name = "films_genres",
