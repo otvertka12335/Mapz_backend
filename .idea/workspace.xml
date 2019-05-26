@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c366914-e271-4d7a-8268-83977b30cf94" name="Default Changelist" comment="Small fix in Hall Model">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapz/model/iCopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapz/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapz/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapz/model/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapz/model/Genre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapz/security/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapz/security/JwtTokenProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapz/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapz/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapz/security/JwtTokenProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapz/security/JwtTokenProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapz/controller/HallController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapz/controller/HallController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapz/model/Hall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapz/model/Hall.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,7 +23,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/controller/AuthController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
+            <state relative-caret-position="884">
               <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -37,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/Genre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="391">
+              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#426#427#0" expanded="true" />
@@ -47,20 +45,44 @@
                 <element signature="e#605#606#0" expanded="true" />
                 <element signature="e#649#650#0" expanded="true" />
                 <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#1643#1644#0" expanded="true" />
-                <element signature="e#1690#1691#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/controller/GenreController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/Hall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/controller/GenreController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/controller/HallController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            <state relative-caret-position="110">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#429#430#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -113,7 +135,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/controller/FilmController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/repo/GenreRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/controller/GenreController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapz/repo/HallRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/controller/PurchasedTicketController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/model/Usr.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/model/User.java" />
@@ -128,8 +149,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/payload/JwtAuthenticationResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/model/FilmsGenres.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapz/model/Hall.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapz/controller/HallController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/controller/UsrController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/security/UserPrincipal.java" />
@@ -143,6 +162,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/services/Cinema.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/services/Film.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/model/Genre.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapz/model/iHallProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapz/model/HallProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapz/repo/HallRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapz/model/iCopy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapz/model/Hall.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapz/controller/HallController.java" />
       </list>
     </option>
   </component>
@@ -158,6 +183,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,8 +247,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +325,8 @@
       <workItem from="1558427895758" duration="16000" />
       <workItem from="1558445595956" duration="6773000" />
       <workItem from="1558544485426" duration="474000" />
-      <workItem from="1558635366308" duration="22183000" />
+      <workItem from="1558635366308" duration="23999000" />
+      <workItem from="1558857884023" duration="1943000" />
     </task>
     <task id="LOCAL-00001" summary="It was hard but we made it 🐱‍👤">
       <created>1558454787420</created>
@@ -320,13 +346,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33437000" />
+    <option name="totallyTimeSpent" value="37196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -336,7 +362,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3427762" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3427762" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -491,16 +517,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/FilmsGenres.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/FilmsGenres.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-383">
@@ -523,36 +540,6 @@
             <element signature="e#1243#1244#0" expanded="true" />
             <element signature="e#1288#1289#0" expanded="true" />
             <element signature="e#1322#1323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/Hall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/controller/HallController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/repo/HallRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -724,13 +711,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/services/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/services/Film.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/Film.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -738,9 +719,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/HallProxy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/iHallProxy.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="884">
           <caret line="79" column="32" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -750,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/Genre.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#426#427#0" expanded="true" />
@@ -760,18 +743,55 @@
             <element signature="e#605#606#0" expanded="true" />
             <element signature="e#649#650#0" expanded="true" />
             <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#1643#1644#0" expanded="true" />
-            <element signature="e#1690#1691#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/repo/HallRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/iCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/controller/GenreController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/Hall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/controller/HallController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#429#430#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
           </folding>
         </state>
       </provider>

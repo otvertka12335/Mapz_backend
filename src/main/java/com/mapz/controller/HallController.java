@@ -25,7 +25,7 @@ public class HallController {
 
     @GetMapping("/{id}")
     public Hall find(@PathVariable("id") Hall hall) {
-        return hall;
+        return (Hall) hall.copy();
     }
 
     @PutMapping("/{id}")

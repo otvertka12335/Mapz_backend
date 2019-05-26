@@ -13,10 +13,20 @@ import javax.persistence.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Hall {
+public class Hall implements iCopy{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
     private String name;
+
+    public Hall(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public Object copy() {
+        Hall copy = new Hall(name);
+        return copy;
+    }
 }
