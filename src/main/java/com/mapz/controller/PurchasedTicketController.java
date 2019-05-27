@@ -39,4 +39,19 @@ public class PurchasedTicketController {
     public void deleteUser(@PathVariable("id") PurchasedTicket purchasedTicket) {
         purchasedTicketRepo.delete(purchasedTicket);
     }
+
+    @RequestMapping("/getAllByUser")
+    public Iterable<PurchasedTicket> getAllByUserId(@RequestParam("id") int id) {
+        return purchasedTicketRepo.findAllByUserId(id);
+    }
+
+    @RequestMapping("/getAllByUserArchived")
+    public Iterable<PurchasedTicket> getAllByUserArchived(@RequestParam("id") int id) {
+        return purchasedTicketRepo.findAllByUserIdArchived(id);
+    }
+
+    @PostMapping("/setStatusTrue/{id}")
+    public void setStatusTrue(@PathVariable("id") int id) {
+        purchasedTicketRepo.setStatusTrue(id);
+    }
 }

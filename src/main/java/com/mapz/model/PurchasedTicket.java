@@ -1,10 +1,7 @@
 package com.mapz.model;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 import org.hibernate.annotations.NotFound;
 import org.hibernate.annotations.NotFoundAction;
 
@@ -30,4 +27,6 @@ public class PurchasedTicket {
     @NotFound(action = NotFoundAction.IGNORE)
     @JoinColumn(name = "id_usr")
     private User user;
+
+    private Boolean status;
 }
