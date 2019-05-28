@@ -39,4 +39,14 @@ public class FilmController {
     public void deleteUser(@PathVariable("id") Film film) {
         filmRepo.delete(film);
     }
+
+    @RequestMapping("/findAllByName")
+    public Iterable<Film> findAllByName(@RequestParam("search") String search) {
+        return filmRepo.findAllByName(search);
+    }
+
+    @RequestMapping("/findAllByGenre")
+    public Iterable<Film> findAllByGenre(@RequestParam("search") String search) {
+        return filmRepo.findAllByGenres(search);
+    }
 }

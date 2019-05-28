@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6c366914-e271-4d7a-8268-83977b30cf94" name="Default Changelist" comment="Small fix in Hall Model">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapz/controller/PurchasedTicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapz/controller/PurchasedTicketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapz/model/PurchasedTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapz/model/PurchasedTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapz/repo/PurchasedTicketRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapz/repo/PurchasedTicketRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapz/controller/FilmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapz/controller/FilmController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapz/repo/FilmRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapz/repo/FilmRepo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,45 +14,58 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mapz@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/PurchasedTicket.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/Film.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="35" column="29" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/controller/PurchasedTicketController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/repo/FilmRepo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1883#1884#0" expanded="true" />
-                <element signature="e#1943#1944#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/repo/PurchasedTicketRepo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/controller/FilmController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="229">
+              <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#0#50#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,7 +113,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/repo/Genre.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/repo/Hall.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/repo/Ticket.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapz/controller/FilmController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/repo/GenreRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/controller/GenreController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/model/Usr.java" />
@@ -116,11 +127,9 @@
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/payload/JwtAuthenticationResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/model/FilmsGenres.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapz/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/security/UserPrincipal.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/repo/UserRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/model/Film.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mapz/repo/FilmRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/repo/TicketRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/controller/TicketController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/security/JwtTokenProvider.java" />
@@ -139,6 +148,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/model/PurchasedTicket.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/controller/PurchasedTicketController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapz/repo/PurchasedTicketRepo.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e66c024e-1b43-423a-a28a-183448cabf32/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/773df4a6-f9eb-4f39-96c0-4e0b2933503c/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapz/controller/FilmController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapz/repo/FilmRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapz/config/SecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -154,6 +168,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,45 +203,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mapz" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MapzProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MapzProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapz" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MapzProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MapzProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapz" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MapzProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MapzProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mapz" type="462c0819:PsiDirectoryNode" />
-              <item name="repo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -300,7 +289,8 @@
       <workItem from="1558544485426" duration="474000" />
       <workItem from="1558635366308" duration="23999000" />
       <workItem from="1558857884023" duration="6707000" />
-      <workItem from="1558968415800" duration="6006000" />
+      <workItem from="1558968415800" duration="6677000" />
+      <workItem from="1559044885358" duration="5953000" />
     </task>
     <task id="LOCAL-00001" summary="It was hard but we made it 🐱‍👤">
       <created>1558454787420</created>
@@ -320,13 +310,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47966000" />
+    <option name="totallyTimeSpent" value="54590000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2751678" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27919462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -334,9 +323,10 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3427762" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3427762" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,7 +337,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -355,7 +345,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3295302" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
@@ -388,16 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/repo/GenreRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/RoleName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -426,16 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="54" selection-start-column="54" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/controller/FilmController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -477,26 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/repo/FilmRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="69" column="36" lean-forward="true" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/payload/SignUpRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -520,13 +470,6 @@
             <element signature="e#279#280#0" expanded="true" />
             <element signature="e#325#326#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/payload/ApiResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -623,13 +566,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/Film.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -739,7 +675,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/PurchasedTicket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
+        <state relative-caret-position="442">
           <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -749,23 +685,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/controller/PurchasedTicketController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="748">
           <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1883#1884#0" expanded="true" />
-            <element signature="e#1943#1944#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/repo/PurchasedTicketRepo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="255">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#0#50#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/repo/GenreRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e66c024e-1b43-423a-a28a-183448cabf32/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/model/Film.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="29" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/773df4a6-f9eb-4f39-96c0-4e0b2933503c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/repo/FilmRepo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/payload/ApiResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="94" column="28" selection-start-line="94" selection-start-column="28" selection-end-line="94" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapz/controller/FilmController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="47" column="38" lean-forward="true" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
