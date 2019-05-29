@@ -32,8 +32,9 @@ public class Genre {
             return name;
         }
 
-        public void setName(String name) {
+        public GenreBuilder setName(String name) {
             this.name = name;
+            return this;
         }
 
         public Genre build() {

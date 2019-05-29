@@ -19,9 +19,9 @@ public class GenreController {
     }
 
     @PostMapping()
-    public Genre save(@RequestBody final Genre genre) {
-        genreRepo.save(genre);
-        return genre;
+    public Genre save(@RequestBody final String genre) {
+        Genre genreBuild = new Genre.GenreBuilder().setName(genre).build();
+        return genreRepo.save(genreBuild);
     }
 
     @GetMapping("/{id}")

@@ -28,5 +28,5 @@ public class PurchasedTicket {
     @JoinColumn(name = "id_usr")
     private User user;
 
-    private Boolean status;
+    private Boolean status = false;
 }

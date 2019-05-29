@@ -17,7 +17,7 @@ import java.util.Set;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Film {
+public class FilmUrl {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -28,11 +28,11 @@ public class Film {
 
     private String url;
 
-
     @ManyToMany(fetch = FetchType.LAZY)
     @NotFound(action = NotFoundAction.IGNORE)
     @JoinTable(name = "films_genres",
             joinColumns = {@JoinColumn(name = "film_id") },
             inverseJoinColumns = {@JoinColumn(name = "genres_id")})
     private Set<Genre> genres = new HashSet<>();
+
 }

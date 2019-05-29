@@ -1,6 +1,8 @@
 package com.mapz.controller;
 
 import com.mapz.model.Hall;
+import com.mapz.model.Iterator;
+import com.mapz.model.classIterator;
 import com.mapz.repo.HallRepo;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,9 +13,14 @@ import org.springframework.web.bind.annotation.*;
 public class HallController {
     @Autowired
     private HallRepo hallRepo;
+    private classIterator classIterator = new classIterator();
+    private Iterator iterator = classIterator.getIterator();
 
     @GetMapping
     public Iterable<Hall> getAll() {
+        while(iterator.hasNext()) {
+            return hallRepo.findAll();
+        }
         return hallRepo.findAll();
     }
 
@@ -25,6 +32,11 @@ public class HallController {
 
     @GetMapping("/{id}")
     public Hall find(@PathVariable("id") Hall hall) {
+        return hall;
+    }
+
+    @GetMapping("/c{id}")
+    public Hall findC(@PathVariable("id") Hall hall) {
         return (Hall) hall.copy();
     }
 
