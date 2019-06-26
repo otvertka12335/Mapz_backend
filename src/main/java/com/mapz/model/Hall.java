@@ -23,7 +23,7 @@ public class Hall implements iCopy{
     public Hall(String name) {
         this.name = name;
     }
-
+//Prototype
     @Override
     public Object copy() {
         Hall copy = new Hall(name);

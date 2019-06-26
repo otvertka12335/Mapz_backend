@@ -14,5 +14,5 @@ public interface PurchasedTicketRepo extends CrudRepository<PurchasedTicket, Int
     Iterable<PurchasedTicket> findAllByUserIdArchived(@Param("id") int id);
 
     @Query(value = "UPDATE purchased_tickets SET status = true WHERE id = :id", nativeQuery = true)
-    Iterable<PurchasedTicket> setStatusTrue(@Param("id") int id);
+    PurchasedTicket setStatusTrue(@Param("id") int id);
 }
