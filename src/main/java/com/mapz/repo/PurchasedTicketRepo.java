@@ -15,4 +15,9 @@ public interface PurchasedTicketRepo extends CrudRepository<PurchasedTicket, Int
 
     @Query(value = "UPDATE purchased_tickets SET status = true WHERE id = :id", nativeQuery = true)
     PurchasedTicket setStatusTrue(@Param("id") int id);
+
+    @Query(value = "delete from purchased_tickets " +
+            "where purchased_tickets.id_tickets in " +
+            "(select tickets.id from tickets where tickets.id_films = :film_id)", nativeQuery = true)
+    void deleteAFilm(@Param("film_id") int id);
 }
