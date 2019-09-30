@@ -33,9 +33,12 @@ public class Film {
 
     private boolean del;
 
+//    @ManyToOne
+//    @JoinColumn
     @ManyToOne(fetch = FetchType.LAZY)
     @NotFound(action = NotFoundAction.IGNORE)
     @JoinColumn(name = "genre_id")
+    @OnDelete(action = OnDeleteAction.CASCADE)
     private Genre genre;
 //    @NotFound(action = NotFoundAction.IGNORE)
 //    @JoinTable(name = "films_genres",

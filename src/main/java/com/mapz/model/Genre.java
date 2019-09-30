@@ -6,6 +6,9 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "genres")
@@ -20,6 +23,8 @@ public class Genre {
 
     private String name;
 
+//    @OneToMany(mappedBy = "genre", cascade = CascadeType.ALL, orphanRemoval = true)
+//    protected Set<Film> films;
 
     private Genre(GenreBuilder builder) {
         this.name = builder.name;

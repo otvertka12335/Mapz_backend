@@ -46,8 +46,6 @@ public class FilmController {
     public void deleteUser(@PathVariable("id") Film film) {
 //        purchasedTicketRepo.deleteAFilm(film.getId());
 //        ticketRepo.deleteAFilm(film.getId());
-
-
         filmRepo.delete(film);
     }
 
